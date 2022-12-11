@@ -1,0 +1,17 @@
+{
+  "ts-node": {
+    "transpileOnly": true
+  },
+  "compilerOptions": {
+    "noEmit": true,
+    "strict": true,
+    "target": "es2022",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["scripts"],
+}
